@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- STYLES: -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="section-1 center-column">
+        <h1>Your Result</h1>
+        <div class="circle center-column">
+          <h2 class="section-1__accumulated">76</h2>
+          <h3 class="section-1__total">of 100</h3>
+        </div>
+        <h3 class="title-light">Great</h3>
+        <p class="section-1__text">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+      <div class="section-2">
+        <h3 class="title-dark">Summary</h3>
+
+        <div class="section-2__column red">
+          <div class="section-2__content">
+            <img src="img/icon-reaction.svg" alt="" />
+            <p class="content-text red">Reaction</p>
+          </div>
+          <p class="content-text bolder">80 <span>/ 100</span></p>
+        </div>
+
+        <div class="section-2__column yellow">
+          <div class="section-2__content">
+            <img src="img/icon-memory.svg" alt="" />
+            <p class="content-text yellow">Memory</p>
+          </div>
+          <p class="content-text bolder">92 <span>/ 100</span></p>
+        </div>
+
+        <div class="section-2__column green">
+          <div class="section-2__content">
+            <img src="img/icon-verbal.svg" alt="" />
+            <p class="content-text green">Verbal</p>
+          </div>
+          <p class="content-text bolder">61 <span>/ 100</span></p>
+        </div>
+
+        <div class="section-2__column blue">
+          <div class="section-2__content">
+            <img src="img/icon-visual.svg" alt="" />
+            <p class="content-text blue">Visual</p>
+          </div>
+          <p class="content-text bolder">72 <span>/ 100</span></p>
+        </div>
+        <button>Continue</button>
+      </div>
+    </main>
+  </body>
+</html>
